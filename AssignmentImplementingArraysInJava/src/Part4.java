@@ -17,8 +17,25 @@ Write a program to:
 
  */
 
+
 public class Part4 {
     public static void main(String[] args) {
-        System.out.println("Hello World");
+
+        // Create an array of 10 integers.
+        int[] arr = new int[10];
+
+        // Fill the array with multiples of 3.
+        for (int i = 1; i <= arr.length; i++) {
+            arr[i-1] = i * 3;
+        }
+
+        // Print the length of the array
+        System.out.println("Array length: " + arr.length);
+
+        // Print all the elements on the array
+        System.out.print("Array elements: ");
+        for (int num : arr) {
+            System.out.print(num + " ");
+        }
     }
 }
