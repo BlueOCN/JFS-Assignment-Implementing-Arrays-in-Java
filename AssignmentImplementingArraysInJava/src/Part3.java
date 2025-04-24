@@ -28,6 +28,22 @@ You can update elements of an array using their index.
 
 public class Part3 {
     public static void main(String[] args) {
-        System.out.println("Hello World");
+
+        // Create an array of 5 integers
+        int[] arr = new int[5];
+
+        // Initialize the array with values
+        for (int i = 1; i <= arr.length; i++) {
+            arr[i-1] = i;
+        }
+
+        // Update the third element to a new value.
+        arr[2] = 123;
+
+        // Print all elements of the array
+        for (int num : arr) {
+            System.out.println(num);
+        }
+
     }
 }
