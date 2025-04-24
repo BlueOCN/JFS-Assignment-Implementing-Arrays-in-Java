@@ -40,8 +40,6 @@ numbers[4] = 50;
 System.out.println(numbers[0]); // Output: 10
  */
 
-import java.util.Arrays;
-
 public class Part1 {
     public static void main(String[] args) {
 
