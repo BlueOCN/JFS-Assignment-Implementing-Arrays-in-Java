@@ -31,6 +31,13 @@ Declare and initialize an array of 5 double values. Assign values to each elemen
 
 public class Part2 {
     public static void main(String[] args) {
-        System.out.println("Hello World");
+
+        // Declare amd Initialize an array of 5 double values
+        double[] arr = {5,4,3,2,1}; // Values assigned
+
+        // Print all values stored in the array
+        for (double num : arr) {
+            System.out.println(num);
+        }
     }
 }
